@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suggestion</title>
+  </head>
+  <body>
+    <form action="">
+      Username::
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="username"
+        required
+        minlength="2"
+        autofocus
+        list="course"
+      />
+      <datalist id="course">
+        <option value="h">Html</option>
+        <option value="C">css</option>
+        <option value="J">javascript</option>
+        <option value="L">laravel</option>
+      </datalist>
+      <br />
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>

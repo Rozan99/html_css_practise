@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Enquiry</legend>
+      <form action="/" method="get" enctype="multipart/form-data">
+        <input type="text" readonly value="Rojan's Form" />
+        <br />
+        <br />
+        Username:
+        <input
+          type="text"
+          placeholder="Enter yr username"
+          minlength="4"
+          required
+          autofocus
+        />
+        <br />
+        <br />
+        Password:
+        <input
+          type="password"
+          minlength="8"
+          placeholder="Enter yr password"
+          required
+        />
+        <br />
+        <br />
+        Age:
+        <input
+          type="number"
+          name="age"
+          minlength="1"
+          maxlength="2"
+          min="1"
+          max="90"
+        />
+        <br />
+        <br />
+        Email:
+        <input
+          type="email"
+          name="Email"
+          id="email"
+          placeholder="abcde@gmail.com"
+        />
+        <br />
+        <br />
+        Valid:
+        <input type="checkbox" name="checkbox[]" id="check" value="V" checked />
+        Invalid:
+        <input type="checkbox" name="checkbox[]" id="check" value="I" />
+        <br />
+        <br />
+        Gender:
+        <input type="radio" value="m" name="Gender" /> Male
+        <input type="radio" value="f" name="Gender" /> Female
+        <input type="radio" value="o" name="Gender" /> Others
+        <br />
+        <br />
+        Country:
+        <select>
+          <option value="Nepal">Nepal</option>
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+        </select>
+        <br />
+        <br />
+        image:
+        <input type="file" name="image" />
+        <br />
+        <br />
+        secret:
+        <input type="hidden" name="secret" />
+        <br />
+        <br />
+        Date:
+        <input type="date" name="Calender" />
+        <br />
+        <br />
+        Date&Time:
+        <input type="datetime-local" name="Calender" />
+        <br />
+        <br />
+        Time:
+        <input type="time" name="Time" />
+        <br />
+        <br />
+        Month:
+        <input type="month" name="Time" />
+        <br />
+        <br />
+        week:
+        <input type="week" name="Time" />
+        <br />
+        <br />
+        Range:
+        <input type="range" name="range" min="0" max="200" value="30" />
+        <br />
+        <br />
+        color:
+        <input type="color" name="color" value="#ff0000" />
+        <input type="submit" value="send" />
+        <input type="reset" valur="reset" />
+        <br />
+        <br />
+      </form>
+    </fieldset>
+  </body>
+</html>

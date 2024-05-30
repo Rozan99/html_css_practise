@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div</title>
+    <style>
+      .main {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+      }
+      #parent-row-1 {
+        width: 200px;
+        height: 100px;
+      }
+      #parent-row-2 {
+        width: 200px;
+        height: 100px;
+      }
+      .col1 {
+        width: 100px;
+        height: 100px;
+        float: left;
+        background-color: aqua;
+      }
+      .col2 {
+        width: 100px;
+        height: 100px;
+        float: left;
+        background-color: aquamarine;
+      }
+      .col2-1 {
+        width: 100px;
+        height: 100px;
+        float: left;
+        background-color: rgb(32, 11, 107);
+      }
+      .col2-2 {
+        width: 100px;
+        height: 100px;
+        float: left;
+        background-color: rgb(150, 10, 134);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <!-- maindiv1 -->
+      <div id="parent-row-1">
+        <!--Parent row1-->
+        <div class="col1">home</div>
+        <!--Col1.1-->
+        <div class="col2">about</div>
+        <!--Col1.2-->
+      </div>
+      <!-- maindiv2 -->
+      <div id="parent-row-2">
+        <!--Parent row2-->
+        <div class="col2-1">Gallery</div>
+        <!--Col2.1-->
+        <div class="col2-2">Contact</div>
+        <!--Col2.2-->
+      </div>
+    </div>
+  </body>
+</html>
